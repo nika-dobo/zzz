@@ -23,3 +23,4 @@ def nums(s):
             num1.append(s[i])
     return num,num1
 print(nums([2, 4, 0, 100, 4, 11, 2602, 36]))   
+print(nums([2, 4, 0, 100, 4, 12, 2602, 26, 3, 14]))   

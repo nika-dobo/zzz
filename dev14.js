@@ -15,7 +15,10 @@ function opposite(x){
       if (x < 0){
         return x * -1
     }
-    else if (x => 0){
+    else if (x > 0){
+        return x * -1
+    }
+    else{
         return x
     }
 }
